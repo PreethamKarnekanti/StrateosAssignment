@@ -1,6 +1,6 @@
-import ProjectsPage from '/home/preetk/Desktop/cypress-latest/cypress/robots/strateos/projects_tab/ProjectsPage';
-import ProjectTab from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/locators/projects_tab.json';
-import Data from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/data/data.json';
+import ProjectsPage from '../../../robots/strateos/projects_tab/ProjectsPage';
+import ProjectTab from '../../../fixtures/locators/projects_tab.json';
+import Data from '../../../fixtures/data/data.json';
 context('Strateos Project Tab Test', () => {
 const Page = new ProjectsPage();
 

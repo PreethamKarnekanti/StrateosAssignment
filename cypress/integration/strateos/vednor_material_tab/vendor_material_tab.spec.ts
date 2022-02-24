@@ -1,6 +1,6 @@
-import VendorsMaterialPage from '/home/preetk/Desktop/cypress-latest/cypress/robots/strateos/vendors_material/VendorsMaterial';
-import VendorsMaterial from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/locators/vendors_material.json';
-import Data from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/data/data.json';
+import VendorsMaterialPage from '../../../robots/strateos/vendors_material/VendorsMaterial';
+import VendorsMaterial from '../../../fixtures/locators/vendors_material.json';
+import Data from '../../../fixtures/data/data.json';
 context('Strateos Vendors Material Tab Test', () => {
 const Page = new VendorsMaterialPage();
 

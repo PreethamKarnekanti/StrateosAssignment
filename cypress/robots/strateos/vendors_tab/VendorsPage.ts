@@ -7,13 +7,6 @@ export default class VendorsPage extends BasePage {
       this.accessUrl('http://localhost:5555/');
     }
 
-    login() {
-      cy.get('#emailInput').type('ben.miles@strateos.com'); //Cypress.env('USER_NAME')
-      cy.get('#passwordInput').type('Testing123!'); //Cypress.env('PASSWORD')
-      cy.get('#submitButton').click();
-      return this;
-    }
-
     clickOnMenu(domElement: string){
       this.clickOnDomElement(domElement)
     }

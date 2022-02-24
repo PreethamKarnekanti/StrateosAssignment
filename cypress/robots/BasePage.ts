@@ -14,9 +14,9 @@ export class BasePage {
   }
 
   login() {
-    cy.get('#email').type(Cypress.env('USER_NAME'));
-    cy.get('#password').type(Cypress.env('PASSWORD'));
-    cy.get('#login_submit').click();
+    cy.get('#emailInput').type(Cypress.env('USER_NAME'));
+    cy.get('#passwordInput').type(Cypress.env('PASSWORD'));
+    cy.get('#submitButton').click();
     return this;
   }
 

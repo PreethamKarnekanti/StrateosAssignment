@@ -1,6 +1,6 @@
-import CompoundsPage from '/home/preetk/Desktop/cypress-latest/cypress/robots/strateos/compounds_tab/CompoundsPage';
-import CompoundTab from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/locators/compounds_tab.json';
-import Data from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/data/data.json'
+import CompoundsPage from '../../../robots/strateos/compounds_tab/CompoundsPage';
+import CompoundTab from '../../../fixtures/locators/compounds_tab.json';
+import Data from '../../../fixtures/data/data.json';
 context('Strateos Compounds Tab Test', () => {
 const Page = new CompoundsPage();
 
@@ -11,9 +11,9 @@ const Page = new CompoundsPage();
             Page.login();
             Page.openCompoundsTab(CompoundTab.compounds_tab);
             Page.clickOnRegisterCompoundBtn(CompoundTab.register_compound_btn);
-            Page.clickOnDrawStructure(CompoundTab.draw_structure_btn, Data.smile);
+            Page.clickOnDrawStructure(CompoundTab.draw_structure_btn);
             Page.registerAsPublicCompound(CompoundTab.public_compound_toggle);
-            Page.enterSmileString(CompoundTab.smile_string_input, );
+            Page.enterSmileString(CompoundTab.smile_string_input,Data.smile );
             Page.clickOnNextBtn(CompoundTab.next_btn);
             Page.wait(5000);
             Page.enterNickname(CompoundTab.compound_nickname_input, Data.nickname);

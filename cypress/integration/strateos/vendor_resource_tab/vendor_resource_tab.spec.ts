@@ -1,6 +1,6 @@
-import VendorsResourcePage from '/home/preetk/Desktop/cypress-latest/cypress/robots/strateos/vendors_resource_tab/VendorResourceTab';
-import VendorsResourceTab from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/locators/vendors_resource_tab.json'
-import Data from '/home/preetk/Desktop/cypress-latest/cypress/fixtures/data/data.json'
+import VendorsResourcePage from '../../../robots/strateos/vendors_resource_tab/VendorResourceTab';
+import VendorsResourceTab from '../../../fixtures/locators/vendors_resource_tab.json'
+import Data from '../../../fixtures/data/data.json'
 context('Strateos Vendors Resource Tab Test', () => {
 const Page = new VendorsResourcePage();
 
