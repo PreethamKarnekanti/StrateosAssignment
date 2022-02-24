@@ -1,0 +1,9 @@
+{
+    "menu":".subtabs__tab-link > span",
+    "vendor":":nth-child(2) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text > .submenu-link__dropdown-item",
+    "vendor_subtab":".page-layout__tabs > .subtabs > :nth-child(4) > .subtabs__tab-link",
+    "plus_icon": ".fa-plus",
+    "vendor_name_input":".text-input",
+    "create_vendor":".btn__content > span",
+    "card":".card"
+}

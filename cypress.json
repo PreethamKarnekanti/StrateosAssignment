@@ -1,0 +1,7 @@
+{
+  "env": {
+    "USER_NAME": "ben.miles@strateos.com",
+    "PASSWORD": "Testing123!"
+  },
+  "watchForFileChanges": false
+}

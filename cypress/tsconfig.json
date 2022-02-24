@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "/cypress",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "**/*.ts"
+, "robots/strateos/vendors_resource_tab"  ]
+}
